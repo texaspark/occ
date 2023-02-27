@@ -1,1 +1,21 @@
-Dao
+These classes in the model package provide essential functionality for interacting with the application's database and managing various types of metrics.
+
+- DaoUtils: This class contains utility methods for interacting with the database through DAOs (Data Access Objects). It includes methods for executing SQL queries, opening/closing connections, and handling transactions.
+
+- MetricConstants: This class defines constants used throughout the application related to metrics, such as metric names, metric types, and metric units. It helps ensure consistency in naming and usage of metrics throughout the codebase.
+
+- MetricPropertyDao: This DAO class provides methods for interacting with the database table that stores metadata about metrics, such as their names, types, units, and other properties. It is used to retrieve and update this metadata when necessary.
+
+- OccHealthCheckDao: This DAO class provides methods for checking the health of the application's database connection. It is used to perform regular health checks to ensure that the database is accessible and functioning properly.
+
+- SummarizedComputeMetricDao: This DAO class provides methods for interacting with the database table that stores summarized data about compute metrics, such as CPU usage and memory usage. It is used to retrieve and update this data for use in reports and analysis.
+
+- SummarizedExaDataMetricDao: This DAO class provides methods for interacting with the database table that stores summarized data about Exadata metrics, such as I/O rates and latency. It is used to retrieve and update this data for use in reports and analysis.
+
+- SummarizedStorageMetricDao: This DAO class provides methods for interacting with the database table that stores summarized data about storage metrics, such as disk usage and throughput. It is used to retrieve and update this data for use in reports and analysis.
+
+
+
+
+
+
