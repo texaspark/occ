@@ -1,0 +1,21 @@
+There are eight classes in model package of Dropwizard application. DimensionGroupEntity, DimemsionNameValueEntity, EntityConstants, MetricPropertyEntity, ServiceEntity, SummarizedComputeMetricDataEntity, SummarizedExaDataMetricDataEntity, SummarizedStorageMetricDataEntity. 
+
+It seems like the model package of the Dropwizard application contains eight classes related to computing and storing metric data:
+
+DimensionGroupEntity - This class represents a dimension group, which is a set of related dimensions that can be used to group metrics.
+
+DimensionNameValueEntity - This class represents a single dimension name and value pair.
+
+EntityConstants - This class defines constants used throughout the model package.
+
+MetricPropertyEntity - This class represents a property of a metric, such as its name, description, or unit.
+
+ServiceEntity - This class represents a service that generates metric data.
+
+SummarizedComputeMetricDataEntity - This class represents summarized compute metric data, which includes metrics related to computing performance.
+
+SummarizedExaDataMetricDataEntity - This class represents summarized Exadata metric data, which includes metrics related to Exadata performance.
+
+SummarizedStorageMetricDataEntity - This class represents summarized storage metric data, which includes metrics related to storage performance.
+
+These classes provide a structured way of storing and manipulating metric data within the Dropwizard application.
